@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animate BG</title>
+  <style>
+    body {
+      width: 240px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+    }
+
+    label,
+    select,
+    button {
+      display: block;
+      width: 100%;
+    }
+
+    label {
+      margin-top: 10px;
+      margin-bottom: 5px;
+      font-size: 0.95rem;
+    }
+
+    select {
+      padding: 8px;
+      margin-bottom: 10px;
+    }
+
+    button {
+      padding: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<h3>Animate Background</h3>
+
+<label for="animationSelect">Animation style</label>
+<select id="animationSelect">
+  <option value="particles">Particles</option>
+  <option value="bubbles">Bubbles</option>
+  <option value="lines">Lines</option>
+</select>
+
+<button id="toggleBtn">
+  <span id="toggleLabel">Loading...</span>
+</button>
+
+<script src="popup.js"></script>
+
+</body>
+</html>
